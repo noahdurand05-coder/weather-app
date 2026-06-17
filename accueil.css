@@ -22,8 +22,8 @@ header{
 .intro  {
     display: flex;
     align-items: center;
-    justify-content: center;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+    gap: 10px;
     
 }
 
@@ -34,7 +34,24 @@ h1{
 .logo{
     width: auto;
     height: 50px;
+    margin-left: 25%;
     
+}
+
+.optBtn{
+    background: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: rgb(107, 107, 107);
+    margin-left: 15%;
+    transition: 0.25s;
+}
+
+.optBtn:hover{
+    cursor: pointer;
+    color: rgb(78, 78, 78);
+    transform: scale(1.1);
 }
 
 .search-bar{
