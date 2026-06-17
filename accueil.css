@@ -46,6 +46,7 @@ h1{
     color: rgb(107, 107, 107);
     margin-left: 15%;
     transition: 0.25s;
+    text-decoration: none;
 }
 
 .optBtn:hover{
