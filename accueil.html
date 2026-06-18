@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Météo</title>
     <link rel="stylesheet" href="accueil.css">
-    <script src="script.js" defer></script>
+    
 </head>
 <body>
     <header>
@@ -14,11 +14,16 @@
         <h1>Météo</h1>
         <a href="option.html" class="optBtn">⚙</a>
         </div>
-        <input type="search" class="search-bar" placeholder="ex : Paris">
+        <input type="search" class="search-bar" id="search-bar" placeholder="ex : Paris">
     </header>
     <section class="main-accueil">
-        <div class="meteo-container">
-            
+        <div id="meteo-container">
+            <div id="temperature">
+
+            </div>
+            <div id="hygro">
+
+            </div>
 
 
 
@@ -28,6 +33,6 @@
 
     </section>
     
-    
+    <script src="script.js" ></script>
 </body>
 </html>
